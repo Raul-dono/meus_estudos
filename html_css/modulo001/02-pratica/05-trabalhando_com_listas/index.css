@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+
+    background-color: #777;
+    color: black;
+    font-size: larger;
+
+}
+
+div {
+
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #bbb;
+
+}

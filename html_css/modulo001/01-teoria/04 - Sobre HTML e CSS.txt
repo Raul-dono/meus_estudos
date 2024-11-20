@@ -1,0 +1,160 @@
+O que é HTML e CSS:
+
+HTML:
+- HTML é a sigla para "Hypertext Markup Language", que em português significa "Linguagem de Marcação de Hipertexto" e, é uma linguagem de marcação utilizada para estruturar os elementos da página, como parágrafos, links, títulos, tabelas, imagens e até vídeos.
+
+CSS:
+- CSS é a sigla para "Cascading Style Sheets", que em português significa "Folhas de Estilo em Cascatas" e, é uma linguagem de estilos utilizada para definir cores, fontes, tamanhos, posicionamento e qualquer outro valor estético para os elementos da página.
+
+
+
+Diferenças entre HTML, CSS e Javascript:
+
+HTML:
+- Conteúdo, ou seja.. textos, imagens, videos, tabelas, etc..
+
+CSS:
+- Degign, ou seja.. cores, sombras, tamanhos, posicionamento, etc..
+
+Javascript:
+- Interações, ou seja.. menus, animações, pop-ups, validações, etc..
+
+
+
+Conteúdo em HTML:
+
+<h1> - Abertura de tag
+</h1> - Fechamento de tag
+
+Exemplo:
+- <h1>Exemplo de título</h1>
+
+---
+
+<p> - Abertura de parágrafo
+</p> - Fechamento de parágrafo
+
+Exemplo:
+- <p>Exemplo de parágrafo</p>
+
+---
+
+<img src="">
+- Significa "Image Source" ou "Imagem de Origem" e, serve para adicionar uma imagem à página.
+
+---
+
+<alt="">
+- É um texto alternativo, ou seja, é como se fosse um parâmetro e, serve para indicar o que a imagem representa para o código usado, o que é útil para mecanismos de busca.
+
+Exemplo:
+<img src="foto.png" alt="Exemplo de foto">
+
+---
+
+OBS: No caso do "Exemplo de título", "Exemplo de parágrago" e "foto.png" são considerados CONTEÚDO, enquanto o "Exemplo de foto" é um valor, do qual irá auxiliar no funcionamento do conteúdo.
+
+
+
+Estilo em CSS:
+
+h1 {
+
+    font-family: Arial;
+
+    font-size: 20pt;
+
+    color: blue;
+
+}
+
+  Basicamente, o "h1" é um seletor que personaliza o título principal, também chamado de "título de nível 1", enquanto as linhas dentro da sua chave são chamados de "declaração".
+
+  Nota-se que, ao fim de toda declaração, deve-se sempre colocar o ponto e vírgula no final.
+
+  Sobre as declarações acima, temos algumas observações:
+  - "font-family" irá mudar a fonte do título selecionado, enquanto "Arial" é uma das várias fontes que podem ser usadas;
+  - "font-size" irá mudar o tamanho da fonte, enquanto a sigla "pt" no final do número significa "ponto", ou seja, "pt" é o tamanho em ponto do título selecionado;
+  - "color" irá mudar a cor do texto do elemento selecionado.
+
+
+
+Estrutura básica de documento HTML:
+
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+  <head>
+
+     <meta charset="UTF-8">
+
+     <meta name="viewport"
+     content="width=device-width,
+     initial-scale=1.0">
+
+     <title>Document</title>
+
+  </head>
+
+  <body>
+
+     <h1>Olá, mundo!</h1>
+
+  </body>
+
+</html>
+
+
+
+Detalhes sobre o HTML:
+"<!DOCTYPE html>"
+- É a declaração de tipo de documento no HTML, e é a primeira linha de código necessária em qualquer documento.
+
+  Basicamente, a declaração de "DOCTYPE" é uma instrução para o navegador da web que diz em qual versão do HTML a página é escrita.
+
+---
+
+"<html lang="pt-br">"
+- É um atributo global que ajuda a definir o idioma de um elemento, tanto a língua em que elementos não-editáveis são escritos, quanto a língua em que elementos editáveis devem ser escritos pelo usuário.
+
+  O atributo contém uma única "tag de idioma" (ex: "br" para Brasil, "pt" para Portugal etc..) em um formato definido em tags para identificar linguagens.
+
+  Em outras palavras, essa tag define o idioma principal do site.
+
+---
+
+"<head></head>"
+- São as configurações do site e, essa tag representa ao HTML.
+
+---
+
+"<meta charset="UTF-8">"
+- É uma tag que simboliza a compatibilidade de caractéres no site, caractéres esses que são apresentados por codificações, como o "UTF-8", que é uma codificação que dá ao site compatibilidade com acentuações (ex: ~, ^, ´ etc..), algo bastante útil para o idioma brasileiro.
+
+---
+
+"<meta name="viewport"
+- É a ocupação da página na tela e, essa linha fica entre as tags "<head></head>".
+
+---
+
+"content="width=device-width, initial-scale=1.0">"
+- É a escala de visualização da tela, sendo que "1.0" significa que a escala é de 100%, ou seja, sem zoom ou algo do tipo, fora que, essa linha fica entre as tags "<head></head>".
+
+---
+
+"<title></title>"
+- É o título que irá aparecer na aba da página e, essa linha fica entre as tags "<head></head>".
+
+---
+
+"<body></body>"
+- é a aparência do site e, essa tag representa à linguagem de CSS.
+
+
+
+Como funcionam a HTML e as CSS:
+- Basicamente, o código HTML e CSS é desenvolvido e enviado pelo servidores ao acessarmos eles.
+
+  Como vimos nas linhas acima, os sites são desenvolvidos por códigos, e para os códigos serem convertidos para imagens, existem os navegadores, que não apenas nos permite acesso aos servidores, mas também tem o trabalho de converter os códigos HTML e CSS em imagens.

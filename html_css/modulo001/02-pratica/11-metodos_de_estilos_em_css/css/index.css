@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+
+    background-color: #777;
+    font-size: larger;
+
+}
+
+h1 {
+
+    background-color: #fff;
+    color: #000;
+
+}
+
+h2 {
+
+    color: #000;
+
+}
+
+p {
+
+    color: #000;
+    text-align: justify;
+
+}
+
+a {
+
+    color: #222;
+
+}
+
+a:hover {
+
+    color: #000;
+
+}

@@ -1,0 +1,162 @@
+Para que serve um número IP?
+- Basicamente, o endereço IP é o identificador que permite que as informações sejam enviadas entre dispositivos em uma rede.
+
+  Ele contém as informações de localização e torna o dispositivo acessível para comunicação.
+
+  A Internet precisa de um meio de distinguir diferentes computadores, roteadores e sites
+
+Exemplos de endereçamento IP:
+- 192.168.1.10
+
+192 = 1100 0000
+168 = 1010 1000
+1 = 0000 0001
+10 = 0000 1010
+
+OBS: Os valores acima são números binários e, o IP é estruturado com 4 octetos, ou seja, são 8 bits!!
+
+
+
+Classes de IP:
+- As classes de IP são um método que divide o espaço de endereços IP para o Protocolo de Internet versão 4 em cinco classes de endereços baseadas nos quatro bits de endereço principais, por exemplo:
+
+- 192.168.1.10
+
+A: 0 a 127 = 2 elevado a 24, ou 16.777.216 hosts conectadas ~ Classe A
+B: 128 a 191 = 2 elevado a 16, ou 65.526 hosts conectados ~ Classe B
+C: 192 a 223 = 2 elevado a 8, ou 256 hosts conectados ~ Classe C
+D: 224 a 239 = Multicast, para um grupo de host selecionado; Unicast, para um único host; Broadcast, para todos os hosts locais; Anycast, para um host mais próximo ~ Classe D
+E: 240 a 255 = Teste de novas tecnologias ~ Classe E
+
+OBS: Para saber a classe do IP, basta conferir apenas o primeiro octeto do IP (ex: "192" .168.1.10, ou seja, esse IP é classe C)!!
+
+
+
+Diferença de IPv4 (decimal) e IPv6 (hexadecimal):
+- A principal função do IPv4 e do IPv6 é enviar e receber dados pela internet, roteados para o dispositivo correto, independentemente da infraestrutura de rede subjacente.
+
+  O roteamento, ou identificação do fluxo de pacotes, é a principal tecnologia por trás de todas as comunicações pela internet.
+
+  Diferente do IPv4, que utilizava um endereço de 32 bits composto por 4 números, de 0 a 255, o IPv6 utiliza um endereço de 128 bits, representado por 8 grupos com 4 dígitos.
+
+  Por essa razão, o IPv6 permite mais de 340 undecilhões de endereços, cerca de 75 trilhões a mais do que a quantidade permitida pelo IPv4.
+
+
+
+O que é TCP/IP e como funciona?
+- O TCP/IP são protocolos independentes que trabalham juntos para garantir que os dados sejam entregues ao destino pretendido dentro de uma rede.
+
+  O TCP realiza, além da multiplexação, uma série de funções para tornar a comunicação entre origem e destino mais confiável, como o controle de fluxo, o controle de erro, a sequenciação e a multiplexação de mensagens, enquanto o IP obtém e define o endereço do aplicativo ou dispositivo para o qual os dados devem ser enviados.
+
+
+
+Portas lógicas:
+- Portas ou circuitos lógicos são dispositivos que operam e trabalham com um ou mais sinais lógicos de entrada e somente uma saída, dependente da função implementada no circuito.
+
+  As portas existentes são:
+
+- Porta Lógica NOT
+- Porta Lógica AND
+- Porta Lógica OR
+- Porta Lógica NAND
+- Porta Lógica NOR
+- Porta Lógica XOR
+- Porta Lógica XNOR
+
+
+
+O que é a ICANN?
+- A ICANN é um organismo de coordenação técnica.
+
+  O seu principal objectivo é coordenar o sistema de nomes e números atribuídos na internet para promover um funcionamento estável.
+
+
+
+O que é a LACNIC:
+- A LACNIC fornece a alocação de recursos numéricos e serviços de registo que suportam a operação global da internet.
+
+
+
+O que é a NIC.br?
+- O Núcleo de Informação e Coordenação do Ponto BR (NIC.br) é uma entidade civil, de direito privado e sem fins de lucro, que além de implementar as decisões e projetos do Comitê Gestor da Internet no Brasil, tem entre suas atribuições: coordenar o registro de nomes de domínio ".br".
+
+
+
+IPs restritos e privados:
+- As eestrições de IP podem ser ativadas por razões de segurança, em que os usuários terão permissão para efetuar login somente a partir de um intervalo de endereços IP, conforme definido pelos administradores.
+
+  Um endereço IP privado é usado em uma rede privada para se conectar com segurança a outros dispositivos nessa mesma rede.
+
+Exemplos de IPs restritos e privados:
+
+10.0.0.0 /8
+172.16.0.0 /12
+192.168.0.0 /16
+
+OBS: Os IPs acima são restritos para colocar redes domésticas e locais, conhecidos também como CIDR!!
+
+127.0.0.0 - Servidor interno, feito pela própria máquina
+169.254.0.0 - IP que aparece quando não tem nenhuma rede disponível, chamado também de APIPA (o IP 169 é útil para verificar a saúde do modem)
+
+OBS: Os IPs acima são restritos para situações específicas!!
+
+0.0.0.0 - IP de inicialização de dispositivo
+
+
+
+O que é CIDR e APIPA?
+- O encaminhamento entre domínios sem classificação (CIDR) é um método de alocação de endereços IP que melhora a eficiência do encaminhamento de dados na Internet, enquanto o endereçamento IP privado automático (APIPA) é um recurso que faz com que um computador windows possa atribuir a si mesmo um endereço IP caso um servidor DHCP não esteja disponível ou não exista na rede.
+
+
+
+Como são distribuídos os IPs?
+- Um endereço IP é uma sequência de números separados por pontos. O endereço IP é representado por um conjunto de quatro números: por exemplo, 192.158.1.38. Cada número do conjunto pode variar entre 0 e 255, ou seja, o intervalo de endereçamento IP vai de 0.0.0.0 a 255.255.255.255.
+
+
+
+O que são máscaras de sub-rede?
+-  Uma máscara de sub-rede é como um endereço de IP, mas apenas para uso interno dentro de uma rede. Os roteadores usam máscaras de sub-rede para encaminhar pacotes de dados para o lugar certo. As máscaras de sub-rede não são indicadas dentro dos pacotes de dados que atravessam a internet.
+
+  Ele é chamado de uma máscara de sub-rede porque ele é usado para identificar o endereço de rede de um endereço IP por perfoming uma operação de bit a passo e na máscara de netmask. Uma máscara de sub-rede é um número de 32-bit que mascara um endereço IP e divide o endereço IP em endereço de rede e endereço de host.
+
+
+
+Divisão entre rede e host:
+- Um endereço IP tem comprimento de 32 bits e é composto de dois componentes, uma porção da rede e uma porção do host. O endereço da rede é usado para identificar a rede e é comum a todos os dispositivos conectados a essa rede. O endereço (ou nó) de host é usado para identificar um dispositivo específico anexado à rede.
+
+Exemplos:
+- 192.168.1.1 (classe C)
+
+A - 255.0.0.0 (a rede corresponde ao primeiro octeto; o host corresponde aos três últimos octetos)
+B - 255.255.0.0 (a rede corresponde aos dois primeiros octetos; o host corresponde aos dois últimos octetos)
+C - 255.255.255.0 (a rede corresponde ao três primeiros octetos; o host corresponde ao último octeto)
+
+OBS: A rede pode ser repetida, enquanto o host pode ser alterado. Isso é curioso, pois podem haver vários IPs na mesma rede, pois o host pode haver diversos valores em diversas ordens!!
+
+
+
+Qual é a diferença entre rede, host e broadcast?
+- Redes de computadores referem-se a dispositivos de computação interconectados que podem trocar dados e compartilhar recursos entre si.
+
+  Esses dispositivos em rede usam um sistema de regras, chamados de protocolos de comunicação, para transmitir informações por meio de tecnologias físicas ou sem fio.
+
+  Host é todo e qualquer computador ou máquina ligada a uma rede por meio de um número de IP e domínio definido que tem como responsabilidade oferecer recursos, informações e serviços aos usuários.
+
+  Também é conhecido como: hospedagem, hospedeiro ou anfitrião.
+
+  Broadcast é um termo com origem na língua inglesa que significa basicamente “transmitir”.
+
+  Trata-se do processo pelo qual determinada informação é difundida ou transmitida para diversos receptores ao mesmo tempo.
+
+  Uma expressão similar muito utilizada hoje é o streaming de conteúdo.
+
+  Basicamente, o endereço e rede é sempre o menor endereço numérico dentro da escalas de endereços da rede e sempre possui a porção host dos endereços codificada como zeros.
+
+  O endereço de broadcast é um endereço especial que cada computador em uma rede "escuta" em adição a seu próprio endereço.
+
+Exemplos:
+- 192.168.1.10 (classe C)
+
+Rede: 192.168.1.0
+Host: de 192.168.1.1 até 192.168.1.254
+Broadcast: 192.168.1.255 (o broadcast represente o último octeto)

@@ -1,0 +1,83 @@
+Como funcionam os pares dentro dos cabos de rede:
+- Se for usado dois pares, a rotina será a mesma, mas limitado a 100 Mbps.
+
+  Se quiser usar rede Gigabit, terá que usar os quatro pares.
+
+  No padrão de 100 Mbps apenas os pares verde e laranja transmitem/recebem dados, os demais ajudam no isolamento.
+
+
+
+Métodos de proteção contra interferências eletromagnéticas:
+- Os cabos blindados, ou cabos "shield", são ótimos para evitar interferência eletromagnética.
+
+  Eles têm blindagem de cobre ou alumínio, o que protege os sinais transmitidos.
+
+
+
+Efeito de cancelamento dos cabos UTP:
+- O efeito de cancelamento reduz a diafonia entre os pares de fios e diminui o nível de interferência.
+
+  O número de tranças nos fios pode ser variado a fim de reduzir o acoplamento elétrico.
+
+
+
+Cabo Coaxial:
+- O cabo coaxial é usado pelos provedores de internet para conectar a rede local da residência com a internet.
+
+  É aquele cabo conectado ao seu roteador, um dos primeiros tipos de cabos utilizados em redes locais.
+
+  Ele consegue transmitir dados em até 10 Megabits por segundo (Mbps).
+
+
+
+Cabo Par Trançado (UTP e STP):
+- Muito utilizado para montagem de redes locais, este cabo recebe este nome pela sua composição.
+
+  Ele é formado por quatro pares de cabos entrelaçados entre si.
+
+  Isso traz como benefício a diminuição de interferências eletromagnéticas.
+
+  Ao contrário do coaxial, o cabo de par trançado é ideal para ser usado em topologias onde existe a comunicação de muitas máquinas ao mesmo tempo.
+
+  Além disso, podem ser utilizadas para ligar equipamentos de redes como hubs e switches.
+
+
+
+Diferenças entre o Par Trançado e o Coaxial:
+
+Conectores:
+- Os cabos de rede coaxial utilizam conectores BNC, enquanto os cabos de par trançado utilizam conectores RJ-45 de 8 pinos.
+
+  Os conectores RJ-45 são compatíveis com portas de rede padrão de computadores, switches e roteadores. 
+
+Uso:
+- Os cabos de rede coaxial são indicados para a transmissão de dados de Internet, sinais de rádio e de televisão.
+
+  Os cabos de par trançado são usados principalmente para transmitir sinais de dados em redes de comunicação. 
+
+Resistência:
+- Os cabos de par trançado foram criados para serem mais resistentes e flexíveis que os coaxiais. 
+
+Largura de banda:
+- Os cabos de rede coaxial têm uma largura de banda larga menor que os cabos de par trançado, o que significa que a velocidade diminui com a distância. 
+
+Composição:
+- Os cabos de rede coaxial são compostos por um único fio de cobre envolto por um isolamento de espuma, uma blindagem metálica entrançada e uma capa de plástico.
+
+  Os cabos de par trançado são compostos por pares de fios de cobre isolados que são torcidos juntos em uma configuração de trança.
+
+
+
+Por que os cabos de par trançado tem pares de fios entrelaçados?
+- Os cabos de par trançado têm pares de fios entrelaçados em espiral para reduzir o ruído e manter as propriedades elétricas constantes ao longo da sua extensão.
+
+  Esta configuração de trança ajuda a reduzir a interferência eletromagnética (EMI) e a crosstalk (interferência entre os fios adjacentes).
+
+  Isto torna estes cabos adequados para transmitir sinais com qualidade em ambientes com muitos dispositivos eletrónicos próximos.
+
+
+
+Fibra Óptica:
+- A fibra óptica é um material transparente que transmite sinais de luz com baixa atenuação (perda de potência de sinal) por longas distâncias.
+
+  É geralmente fabricado com vidro ou plástico, e pode ter espessura de micrômetros ou comprimento de quilômetros.

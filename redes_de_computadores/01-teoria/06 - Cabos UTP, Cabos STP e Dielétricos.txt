@@ -1,0 +1,46 @@
+Dielétrico:
+- Denomina-se de dielétrico o material que dificulta a passagem da corrente elétrica.
+
+  Nesse tipo de material, os elétrons em fluxo ordenado têm seu movimento impedido.
+
+  Perceba que a definição de dielétrico é exatamente a mesma para isolante elétrico.
+
+
+
+T568A e T568B:
+- O T568A e o T568B são dois padrões de cores utilizados para fazer cabos de rede.
+
+  A única diferença entre os dois padrões é a ordem em que os fios se ligam à tomada RJ45:
+
+T568A:
+- Pair #1:
+  Azul (Pin #4) + Branco c/ Azul (Pin #5)
+
+- Pair #2:
+  Branco c/ Laranja (Pin #3) + Laranja (Pin #6)
+
+- Pair #3:
+  Branco c/ Verde (Pin #1) + Verde (Pin #2)
+
+- Pair #4:
+  Branco c/ Marrom (Pin #7) + Marrom (Pin #8)
+
+T568B:
+- Pair #1:
+  Azul (Pin #4) + Branco c/ Azul (Pin #5)
+
+- Pair #2:
+  Branco c/ Laranja (Pin #1) + Laranja (Pin #2)
+
+- Pair #3:
+  Branco c/ Verde (Pin #3) + Verde (Pin #6)
+
+- Pair #4:
+  Branco c/ Marrom (Pin #7) + Marrom (Pin #8)
+
+
+
+Diferença entre os cabos UTP e STP:
+- O cabo STP é semelhante ao UTP, mas com uma camada adicional de blindagem.
+
+  Suas vantagens incluem uma maior resistência a interferências, pois a blindagem protege contra interferências eletromagnéticas, tornando-o adequado para ambientes onde a interferência é uma preocupação.

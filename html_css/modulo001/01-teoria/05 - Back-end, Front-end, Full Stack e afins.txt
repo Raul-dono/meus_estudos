@@ -1,0 +1,28 @@
+Back-end, Front-end e Full Stack:
+- O "Back-end" é a estrutura que possibilita a manipulação do sistema, enquanto o "Front-end" é responsável pela parte visual, como apresentação, design, linguagens, cores, entre outros..
+
+  Mesmo tendo papéis diferentes, essas aplicações estão ligadas intimamente para que os ambientes eletrônicos operem em sincronia.
+
+  Nota-se que, o "Full Stack" é a junção dessas duas áreas.
+
+
+
+Site estático e Site dinâmico:
+- "Sites estáticos" são aqueles que são fixos e exibem o mesmo conteúdo para cada usuário, geralmente escritos exclusivamente em HTML.
+
+  Um "site dinâmico", por outro lado, é aquele que pode exibir diferentes conteúdos e proporcionar interação do usuário, fazendo uso de programação avançada e bancos de dados, além de HTML.
+
+
+
+"client-side" e "server-side":
+- As linguagens "client-side" são linguagens onde apenas o navegador vai entender, ou seja, será o navegador quem irá processar a linguagem e, não o servidor.
+
+  As linguagens "server-side" são linguagens que apenas o servidor entende e, isso significa que, o código escrito irá ser processado pelo servidor e, na sequencia, será retornado a resposta do código processado para o navegador.
+
+
+
+Linguagens para Back-end:
+- Javascript, PHP, C#, Phyton, Ruby, Java, etc..
+
+Linguagens para Front-end:
+- Javascript, HTML5, CSS3, etc..

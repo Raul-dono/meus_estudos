@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon/raul-icon.ico" type="image/x-icon">
+
+    <title>Vídeos com HTML5</title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <h1>Inserindo vídeos hospedados localmente</h1>
+
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <video poster="imagens/minha-imagem.jpg" controls>
+
+        <source src="videos/meu-video-alt.mp4" type="video/mp4">
+
+        <source src="videos/meu-video-alt2.mkv" type="video/mkv">
+
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p> <!-- Nota-se que, essa mensagem só irá aparecer caso nenhum dos formatos acima forem compatíveis com o navegador!! -->
+
+    </video>
+
+
+
+    <hr color="#000">
+
+
+
+    <h1>Inserindo vídeos do Youtube</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=Vcwywq3BCDnQc4Mb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!-- O código acima foi incorporado do Youtube!! -->
+
+</body>
+
+</html>

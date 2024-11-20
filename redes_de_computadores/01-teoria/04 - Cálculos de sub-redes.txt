@@ -1,0 +1,91 @@
+Exemplos de sub-rede:
+- 192.168.1.10 (classe c)
+- 255.255.255.0 (máscara de rede)
+
+Rede:
+- 192.168.1.0
+
+Host:
+- 192.168.1.1 até 192.168.1.254
+
+Broadcast:
+- 192.168.1.255
+
+
+
+OBS: Pode-se destinguir uma máscara de rede de uma rede "classe e" da seguinte maneira:
+
+- 255.255.255.192 (máscara de rede)
+  11111111.11111111.11111111.11000000 (valor binário da máscara)
+
+  Basicamente, se houver uma sequência de "1" de um lado e uma sequência de "0" do outro, é uma máscara de rede.
+
+
+
+- 255.255.255.64 (classe e)
+  11111111.11111111.11111111.01000000 (valor binário da classe e)
+
+  Nesse caso, ouve uma mistura de números no último octeto (ou seja, octeto misto), o que determina que esse endereço é de classe e.
+
+OBS: Todos os últimos octetos de rede são pares; já os últimos octetos de broadcast são ímpares!!
+
+OBS²: Só existem sub-redes em máscaras com octeto misto (ex: 255.255.255.192 - "192" é um octeto misto).
+
+  Vale ressaltar que só pode existir um único octeto misto por máscada de rede, sem contar que o octeto misto é definido através de cálculos binários!! 
+
+
+
+Passo 1:
+- 192.168.1.10 (classe c)
+- 255.255.255.192 (máscara)
+
+256 (número coringa) - 192 (octeto misto) = 64 (ips; incluíndo broadcast)
+
+OBS: O número "256" é citado por conta da quantidade de caractéres do 0 ao 255 (ex: contagem de 1 a 255 começando pelo 0 = 0 é 1; 255 é 256)!!
+
+OBS²: Chamamos o resultado do cálculo do número coringa com o octeto misto de "salto", que mostra a variação entre as sub-redes!!
+
+OBS³: Para recapitular, a máscara de sub-redes são montadas da seguinte maneira:
+
+- Classe A = Repete o primeiro octeto;
+- Classe B = Repete os dois primeiros octetos;
+- Classe C = Repete os três primeiros octetos!!
+
+
+
+Passo 2:
+- Achar todas as redes, todos os broadcasts e todos os hosts.
+
+Rede:
+- 192.168.1."0"
+- 192.168.1."64" (soma da primeira sub-rede com o salto)
+- 192.168.1."128" (multiplicação do salto por 2)
+- 192.168.1."192" (multiplicação do salto por 3)
+
+- 192.168.1."256" (multiplicação do salto por 4)
+
+  No caso da rede, o cálculo termina quanto o valor da sub-rede se aproxima do "256", ou seja, o último cálculo não é valido, tornando o penúltimo cálculo a sub-rede verdadeira.
+
+
+
+Host:
+- 192.168.1.1 (sub-rede +1) a 192.168.1."62" (broadcast -1)
+- 192.168.1.65 (sub-rede +1) a 192.168.1."126" (broadcast -1)
+- 192.168.1.129 (sub-rede +1) a 192.168.1."190" (broadcast -1)
+- 192.168.1.193(sub-rede +1) a 192.168.1."254" (broadcast -1)
+
+  No caso do host, é tirado como base os endereços de sub-redes, só que adicionando sempre 1.
+
+
+
+Broadcast:
+- 192.168.1."63"
+- 192.168.1."127"
+- 192.168.1.'191"
+- 192.168.1."255"
+
+  No caso do broadcast, é tirado como base os endereços de sub-redes, só que subtraíndo sempre 1.
+
+  No caso, a rede foi separada por 4 blocos de sub-rede.
+
+  Se usarmos como exemplo um servidor de uma escola, podemos usar o primeiro bloco para o laboratório, o segundo bloco para o call center, o terceiro bloco para a secretaria, e o último bloco para a coordenação.

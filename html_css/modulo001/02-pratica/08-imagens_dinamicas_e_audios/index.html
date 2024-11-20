@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon/raul-icon.ico" type="image/x-icon">
+
+    <title>Imagens Dinâmicas e Áudios</title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <h1>Imagem Dinâmica</h1>
+
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+        <!-- Lembrando que, o comando "max-width" é referênte à largura máxima da imagem!! -->
+        
+        <source media="(max-width: 1050px)" srcset="imagens/medio.png" type="image/png">
+
+        <img src="imagens/grande.png">
+    
+    </picture>
+    <!-- Nos comandos acima, deve-se sempre prestar a atenção no tamanho da imagem pois, se uma imagem tem 1000px, no "source type" o tamanho máximo deve ter uma folga de 50px, ou seja, 1050px, fora que deve-se sempre selecionar uma imagem alternativa e de tamanho menor que a imagem principal!!
+
+        Outra observação é que as imagens devem estar na sequência, começando pela menor e terminando pela maior!!
+
+    -->
+
+
+
+    <hr color="#000">
+
+
+
+    <h1>Reproduzindo Áudio</h1>
+
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+
+    <audio src="musica/_hed_p.e.-renegade.mp3" controls></audio>
+    <!-- Na linha acima, o áudio selecionado irá tocar assim que a página carregar, com os controles de mídia e tudo mais!! -->
+
+    <p>Outra opção:</p>
+
+    <audio preload="metadata" controls>
+    <!-- Na tag "preload", existem 3 opções:
+
+        - "Auto", que só considera que o site carregou completamente quando o áudio todo for carregado completamente (isso é ruim pois, dependendo do tamanho do áudio, o site pode demorar para carregar completamente, além de pesar em versões de celular.);
+
+        - "metadata", que só irá carregar o nome do arquivo, a duração etc..;
+
+        - "none", que não carrega nada, apenas quando o usuário apertar "play" no controle!!
+
+    -->
+
+        <source src="musica/_hed_p.e.-renegade.mp3" type="audio/mpeg">
+
+        <source src="musica/_hed_p.e.-renegade.ogg" type="audio/ogg">
+
+        <source src="musica/_hed_p.e.-renegade.wav" type="audio/wav">
+
+        <p>Infelismente, seu navegador não consegue reproduzir áudio. 
+
+            <a href="musica/_hed_p.e.-renegade.mp3">
+
+                Clique aqui para baixar o arquivo mp3
+
+            </a>
+
+        </p>
+
+    </audio>
+    <!-- Outro detalhe legal é que, se digitar o comando "autoplay" dentro da tag "audio" (ex: <audio preload="metadata" controls autoplay>), a mídia será reproduzida automaticamente!! -->
+
+</body>
+
+</html>

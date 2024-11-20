@@ -1,0 +1,111 @@
+O que é o TTL na rede?
+- "Time To Live", ou TLL, é uma configuração que determina quanto tempo seus dados (em forma de pacote) são válidos e disponíveis de dentro de uma rede antes que o roteador os limpe.
+
+
+
+Diferença entre ping e latência:
+- No geral, ambos são tratados como o mesmo conceito, porém a latência é um conceito um pouco mais amplo.
+
+  Enquanto a latência é o atraso que uma mensagem leva de um ponto a outro, do seu computador para o servidor, por exemplo, o ping é a unidade utilizada para medi-la, que costuma ser em milissegundos (ms).
+
+
+
+IP Dinâmico:
+- O IP Dinâmico se refere a um endereço que muda sempre, normalmente quando você liga o modem, ou em intervalos de tempo definidos pelo provedor.
+
+IP Estático:
+- O0 IP Estático é um endereço que não muda. O endereço de um dispositivo atribuído a um IP estático não muda ao longo do tempo, o que pode ajudar no funcionamento de alguns serviços online.
+
+PPPoE
+- O PPPoE é um protocolo de rede que atua com a tecnologia Ethernet, utilizada para ligar uma placa de rede a um ou vários usuários em uma rede LAN por meio de uma linha DSL.
+
+  É bastante utilizado porque permite identificar o usuário conectado com facilidade, além de controlar as suas ações, após ter sido autenticado.
+
+L2TP:
+- As ligações Layer 2 Tunneling Protocol (L2TP), também chamadas linhas virtuais, proporcionam um acesso pouco dispendioso a utilizadores remotos, ao permitir ao sistema de rede de uma empresa gerir os endereços de IP atribuídos aos respectivos utilizadores remotos.
+
+PPTP:
+- O Point-to-Point Tunneling Protocol (PPTP) é um método para implementar redes privadas virtuais.
+
+  O PPTP usa um canal de controle sobre o Transmission Control Protocol (TCP) e um túnel de Generic Routing Encapsulation (GRE) operando para encapsular o pacote do Point-to-Point Protocol (PPP).
+
+
+
+O que é VCI e VCC?
+- O VPI é o Identificador de Caminho Virtual e o VCI é o Identificador de Canal Virtual.
+
+  Eles funcionam juntos para estabelecer uma conexão entre dois dispositivos em uma rede.
+
+  Basicamente, a switch procura o destino de acordo com o endereço especificado pela solicitante e então estabelece o VCC.
+
+  Caso a operação seja completada com sucesso, a estação solicitante recebe um sinal incluindo uma identificação do número do canal, ou seja, o VCI.
+
+
+
+Wireless 2.4GHz e 5GHz:
+- A banda de 2,4 GHz mais baixa oferece um maior alcance com taxas de dados mais baixas, enquanto 5 GHz e 6 GHz oferecem velocidades muito mais rápidas.
+
+  Diversificar conexões de dispositivos em diferentes bandas sem fio ajuda a reduzir o congestionamento da rede para um melhor desempenho geral.
+
+  Vale ressaltar que, são chamados wireless qualquer espécie de conexão sem cabo que tem por finalidade troca de informações, como o bluetooth, o infravermelho e o Wi-Fi, por exemplos.
+
+
+
+O que é SSID?
+- Um Identificador de Conjunto de Serviços (SSID) é apenas o nome da rede sem fio de um usuário da internet.
+
+  Também conhecido como ID da Rede, é uma rede sem fio que todos podem visualizar.
+
+
+
+WPA, WPA2 e WEP:
+- O Wi-Fi Protected Access (WPA) e o Wi-Fi Protected Access 2 (WPA2) são dois padrões de segurança que protegem as redes sem fio.
+
+  O WPA2 é a segunda geração do padrão de segurança Wi-Fi Protected Access e, portanto, é mais seguro que seu antecessor, o WPA.
+
+  O Wired Equivalent Privacy (WEP) foi a primeira tentativa de proteção sem fio.
+
+  O objetivo era adicionar segurança às redes sem fio criptografando dados.
+
+
+
+Versão WPA/WPA2-PSK:
+- WPA-PSK também é chamado de WPA-Personal. O WPA-PSK permite que a máquina sem fios da Brother se associe a pontos de acesso usando o método de criptografia TKIP ou AES.
+
+  O WPA2-PSK permite que a máquina sem fios da Brother se associe a pontos de acesso usando o método de criptografia AES.
+
+
+
+Criptografia TKIP e AES:
+- O Temporal Key Integrity Protocol (TKIP) fornece uma combinação de chave por pacote, integridade de mensagem e mecanismo de criação e atribuição de nova chave.
+
+  O TKIP utiliza chave de criptografia de 128 bits para cada pacote transmitido entre o roteador e o dispositivo.
+
+  O Advanced Encryption Standard (AES) é o padrão de criptografia forte autorizado por Wi-Fi.
+
+  O AES usa criptografia de chave "simétrica".
+
+  Alguém na extremidade receptora dos dados precisará de uma chave para decodificá-los.
+
+  O AES é diferente de outros tipos de criptografia, pois criptografa os dados em um único bloco, em vez de bits de dados individuais.
+
+
+
+Padrões de rede Wi-Fi:
+- Os padrões 802.11 a, b, g, n, ac (Wi-Fi 5), ax (Wi-Fi 6/6E) e be (Wi-Fi 7) apresentam diferenças em relação a: frequência de operação, velocidade máxima, latência, área de cobertura (alcance), quantidade de dispositivos conectados, protocolos de segurança suportados, consumo de energia e dispositivos compatíveis.
+
+  O padrão 802.11 b/g/n é a faixa de frequência mais comum no mercado hoje, sendo que, praticamente todo roteador comercializado atualmente conta com suporte para essa faixa.
+
+
+
+Teste de rede:
+- Prompt de comando; ping
+
+Teste de placa de rede:
+- Prompt de comando; ping 127.0.0.1 a 127.0.0.200
+
+Teste de rota de internet:
+- Prompt de comando; tracert (windows) ou traceroute (linux)
+
+Teste de configuração de rede:
+- Prompt de comando; ipconfig

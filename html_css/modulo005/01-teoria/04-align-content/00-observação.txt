@@ -1,0 +1,5 @@
+O comando "align-content" funciona para "cross-axis" (ou, eixo transversal), mas lembre-se..
+
+  diferente de "align-items", ele trabalha com linhas (ou seja, elementos na horizontal), e não com colunas (ou seja, elementos na vertical), e para isso..
+
+  é necessário usar o "flex-wrap: wrap;", ou o "flex-wrap: wrap-reverse;", podendo usar também o "flex-flow: ___ wrap;" ou o "flex-flow: ___ wrap-reverse;" também!!

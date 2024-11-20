@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* --- Tablet --- */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    div {
+
+        width: 80%;
+        height: 400px;
+
+    }
+
+    img {
+
+        width: 250px;
+
+    }
+
+    iframe {
+
+        width: 500px;
+        height: 280px;
+
+    }
+
+}
+
+
+
+/* --- Telas grandes --- */
+@media screen and (min-width: 992px) {
+
+    div {
+
+        width: 70%;
+        height: 500px;
+
+    }
+
+    img {
+
+        width: 300px;
+
+    }
+
+    iframe {
+
+        width: 600px;
+        height: 340px;
+
+    }
+
+}

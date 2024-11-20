@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+
+    background-image: url(imagens/tela_de_fundo.jpg);
+    color: black;
+    font-size: larger;
+
+}
+
+div {
+
+    height: 750px;
+    padding: 5px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: #888888b0;
+
+}
+
+ins {
+
+    font-size: larger;
+
+}

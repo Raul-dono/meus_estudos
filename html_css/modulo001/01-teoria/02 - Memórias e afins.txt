@@ -1,0 +1,67 @@
+Diferença de Bit para Byte:
+- Bit e byte são palavras muito parecidas, no entanto com significados totalmente diferentes.
+
+  Um bit é um valor que pode ser 1 ou 0, um byte é uma sequência de bits que pode ter o tamanho máximo de 8 dígitos, ou seja, 1 byte equivale a 8 bits.
+
+  Uma maneira fácil de identificar quando cada medida está sendo utilizada é observando a unidade, sendo que, o bit é sempre representado com um 'b' minúsculo (Mb; Gb; Tb), enquanto o byte é representado com o 'B' maiúsculo (MB; GB; TB).
+
+  Vale ressaltar que os bits são usados em transmissões via internet, tipo um vídeo online, um jogo online ou algo do gênero, enquanto os bytes são usados em armazenamento, como um vídeo baixado no computador, um jogo baixado no computador etc.
+
+
+
+Prefíxo de Byte e suas medidas:
+
+Kilo (Kilobyte, KB)
+- 1024 bytes
+
+Mega (Megabyte, MB)
+- 1024 kilobytes
+
+Giga (Gigabyte, GB)
+- 1024 megabytes
+
+Tera (Terabyte, TB)
+- 1024 gigabytes
+
+Peta (Petabyte, PB)
+- 1024 terabytes
+
+Exa (Exabyte, EB)
+- 1.024 petabytes
+
+Zetta (Zettabyte, ZB)
+- 1.024 exabytes
+
+Yotta (Yottabyte, YB)
+- 1.024 zettabytes
+
+
+
+  Um ponto interessante para ser ressaltado, o computador não vê 1K como 1000B, mas sim como 1024B, pois os bits estão ordenados na base binária, e não na decimal, ou seja, valores só assumem valor 0 ou 1, sendo que cada 1 em cada bit dentro de um byte assume um valor na base 2 conforme sua posição.
+
+  Basicamente, o computador lê a memória com múltiplos de 2, e pra chegar de uma medida para outra (ou seja, de KB para MB etc..), o computador faz o cálculo como 2^10 (ou 2 elevado a 10), que dá 1024, diferente de decimal, do qual a leitura seria com múltiplos de 10, uma leitura do qual o computador não seria capaz de fazer.
+
+
+
+Modulação e Demodulação:
+- "Modulação" é o processo no qual a informação transmitida numa comunicação é adicionada a ondas eletromagnéticas.
+
+  O transmissor adiciona a informação numa onda especial de tal forma que poderá ser recuperada na outra parte através de um processo reverso chamado "Demodulação".
+
+  Esse processo se deve pois, o computador só lê e transmite ondas quadradas, enquanto a internet só lê e transmite ondas senoidal, e para a modulação e demodulação das ondas, o modem é extremamente importânte, pois com ele, um computador consegue se comunicar com um servidor (ambos com ondas quadradas) através da internet (produzindo ondas senoidais).
+
+  Uma observação bastante interessante, o nome "modem" surgiu das iniciais de modulação ("MO"dulação) e demodulação ("DEM"odulação).
+
+
+
+DNS e sua importância:
+- O DNS (Domain Name System, ou Sistema de nome de domínio) converte nomes de domínio legíveis por humanos (por exemplo, www.amazon.com) em endereços IP legíveis por máquina (por exemplo, 192.0.2.44).
+
+  Basicamente, para um computador acessar um servidor, precisa-se de um link para acessar, mas o acesso ao servidor só é possível com o IP dele, e é aí que entra o DNS, pois ele é responsável por essa conversão, ou seja, o nosso computador vai buscar o servidor pelo link, passará pelo DNS para passar o IP do servidor para o computador e, finalmente, o computador conseguirá acessar o servidor.
+
+
+
+As rotas da internet:
+- Roteamento é o processo de seleção de caminho em qualquer rede. Uma rede de computadores é composta por muitas máquinas, chamadas nós, e caminhos ou links que conectam esses nós.
+
+  Vale ressaltar que nos casos de problemas de rede, muito se deve pela rota de internet, pois interferências ou coisas do gênero podem impactar no meio do caminho até o servidor e, muitas das vezes, a internet precisa realizar uma nova rota até chegar no servidor.

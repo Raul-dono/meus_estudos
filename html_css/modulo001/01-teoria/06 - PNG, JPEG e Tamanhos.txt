@@ -1,0 +1,7 @@
+Formato PNG e JPEG:
+- PNG são imagens com transparência de fundo, enquanto JPEG são imagens compactadas, ou seja, imagens mais leves.
+
+
+
+Tamanho Recomendado:
+- O tamanho recomendado para criação de sites é de, no mínimo, 1.500, pois quanto maior o tamanho da imagem, maior será o peso dela, o que pode influenciar no carregamendo da página.

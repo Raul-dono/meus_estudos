@@ -1,0 +1,35 @@
+- Pelo que eu entendi, a internet surgiu no período da Guerra Fria, guerra essa que ocorreu em 1949 e que não envolvia confrontos físicos e armamentista, mas tecnológico.
+
+  Vale ressaltar que a guerra era entre os EUA e a União Soviética, sendo a União Soviética a mais avançada no quesito tecnológico.
+
+  Um grande sinal de vantagem por parte da União Soviética, foi o lançamento do primeiro satélite artificial da história em 1969, chamado de Sputnik, que assustou os EUA não apenas por ser o primeiro satélite lançado, mas também pela suspeita de que o Sputnik seria um satélite para espionar os EUA, sendo que na verdade, o Sputnik era um satélite que ficava em órbia, enviando bips para a central da União Soviética, ou seja, era apenas um teste.
+
+
+
+- Nesse período, os EUA decidiu criar uma agência para estudar e desenvolver tecnologias para a guerra, grupo esse que foi chamado de DARPA.
+
+  Os EUA tinham bases com computadores que armazenava inúmeras informações, e isso era perigoso, pois se o exército inimígo atacasse a base, todas as informações seriam perdidas, e foi pensando nisso que a DARPA decidiu criar uma rede, rede essa que se chamava ARPANET e tinha quatro computadores, sendo SDS Sigma 7 na universidade da Califórnia, SDS 90 na universidade de Stanford, um IBM 370/75 no centro de matemática de Los Angeles e, até então, o único computador militar dos EUA, o DEC PDP-10 na base militar de Utah.
+
+  Vale ressaltar que esses computadores eram diferentes uns dos outros, não apenas por serem criados por empresas diferentes, mas também por conterem linguagens diferentes, o que poderia impedir a comunicação entre eles, e isso era um problema.
+
+
+
+- Pensando nisso, a universidade de UCLA desenvolveu um protocolo, chamado NCP, que funcionava com uma linguagem única, mas para fazer uma transmissão, a rede tinha que parar, ou seja, para que um computador se comunicasse com outro, os demais computadores precisariam ser desligados para que a transmissão pudesse ocorrer.
+
+  Isso se tornou impraticável ao decorrer do tempo, pois muitos computadores surgiram e se uniram a rede, o que tornou a comunicação entre eles inviável, até que em 1972, surgiu dois novos protocólos, sendo o primeiro, o TCP, com o intuito de resolver o problema da comunicação entre os computadores da rede, mas por conta da quantidade de computadores na rede, o TCP não conseguia melhorar a comunicaçãi entre os computadores, além de não conseguir identificar cada um deles, até que surgiu o segundo protocólo, chamado de IP, protocólo esse que se fundiu com o TCP e que passou a se chamar TCP/IP.
+
+
+
+- Após alguns anos, muitos computadores surgiram e se conectaram com a ARPANET, mas a DARPA decidiu que seria necessário a criação de novas redes, pois o que se iniciou como fonte de compartilhamento militar passou a compor computadores de universidades, computadores de pequenas empresas etc, e foi aí que surgiu três novas redes, sendo a MILNET para o exército, a NSFNET para as universidades e algumas redes comerciais.
+
+  Com o surgimento de novas redes, os computadores conectados na mesma rede podiam se comunicar entre eles, mas eles também queriam se comunicar com computadores de outras redes, e nesse período, foi levantado um termo para esse conjunto de redes que viriam a surgir, chamado Interconnect Networking, que veio a ser abreviado, ficando Internetworking, e que no final, foi simplificado para Internet, termo esse que é usado até hoje.
+
+
+
+- Um ponto muito interessante sobre a comunicação entre redes mundiais, a comunicação é feita por cabos que atravessam o mar, e não por satélites.
+
+
+
+- Outro detalhe bastante interessante, é sobre o envio de informações de um servidor para um cliente, do qual ambos possuem um IP e um TCP, sendo o IP para encontrar um dispositivo e o TCP para enviar uma imagem.
+
+  Vale ressaltar que a imagem é enviada em pacotes pelo TCP do servidor e montado pelo TCP do cliente, o que é bem bacana.

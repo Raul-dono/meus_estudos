@@ -1,0 +1,56 @@
+Domínio e Hospedagem:
+- "Domínio" é apenas o endereço do seu site, enquanto "Hospedagem" é o que armazena todos os dados do seu site.
+
+  Sem a hospedagem de sites, seu site simplesmente não existe e seu domínio iria apontar para nenhum lugar.
+
+  Vale ressaltar que enquanto um site é composto por um conjunto de páginas web, o domínio é o registro, ou melhor, o endereço único que um site tem para ser acessado pelos usuários.
+
+  Digamos que o site é uma casa, o domínio seria o endereço que as pessoas utilizam para ir até o local.
+
+
+
+URL e suas especificações:
+- A sigla "URL" significa "Uniform Resource Locator", que é definida como "Localizador Uniforme de Recursos".
+
+  A URL do Google, por exemplo, é "www.google.com.br", e assim por diante.
+
+  Vale ressaltar que dentro da URL, possuem alguns detalhes importantes, como o "subdomínio", o "domínio", como citado no início da anotação, a "TLD" e o "caminho".
+
+
+
+Subdomínio:
+- Subdomínio é um endereço que faz parte do domínio, ou seja, é uma ramificação do domínio.
+
+  Os subdomínios permitem que você crie conteúdo adicional num site separado da sua página principal, mas sem a necessidade de comprar um novo nome de domínio.
+
+  Com um subdomínio (ou vários), você pode economizar dinheiro e melhorar seus projetos na internet.
+
+  Tecnicamente falando, "www" é o subdomínio mais popular.
+
+  Vale ressaltar que o subdomínio fica no início da URL, podendo ser chamado de prefíxo da URL.
+
+
+
+TLD, gTLD e ccTLD:
+- A sigla "TLD" significa "Top-level Domain", que é o último segmento do seu nome de domínio, aquele elemento localizado após o último ponto.
+
+  Como ele fica no final do endereço, ele também é conhecido como sufixo de domínio.
+
+  As TLDs servem para facilitar e organizar a categorização de páginas na web com base nas informações associadas aos sites.
+
+  Assim, pode-se usá-los para identificar, sem verificar o conteúdo de uma página, o propósito dela, seu dono ou até sua localização geográfica. A TLD é dividida em dois grupos, sendo um o "gTLD" e o outro "ccTLD".
+
+  A sigla "gTLD" significa "Generic Top-Level Domain" ou em português, "Domínio Genérico de Nível Superior", que é um grupo formado por extensões conhecidas como genéricas ou internacionais, tais como ".com" para diferentes mercados, ".org" para organizações etc.
+
+  A sigla "ccTLD" significa "Country Code Top-Level Domain" ou em português, "Código de País de Domínio de Nível Superior", que são domínios utilizados para os diferentes países, ou seja, são extensões nacionais.
+
+  Oficialmente, correspondem às duas letras que representam os mais de 250 países e territórios (ex: ".br" para o Brasil, ".pt" para Portugal etc..).
+
+  A sua utilização é restrita, normalmente reservadas a cidadãos ou empresas habitantes do país ou local da extensão pretendida.
+
+
+
+Caminho:
+- Os caminhos identificam rotas de navegação em sites.
+
+  O caminho do arquivo está localizado após a porta em um URL, identificando a localização de um arquivo no servidor e dizendo ao navegador para abrir uma página específica em um site.

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon/raul-icon.ico" type="image/x-icon">
+
+    <title>Títulos e Formatações</title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <h1>Título Principal, ou de Nível 1</h1>
+
+    <div>
+
+        <h2>Título de nível 2</h2>
+
+        <p>___</p>
+
+        <h3>Título de nível 3</h3>
+
+        <p>Como muitos podem pensar, a hierarquia de títulos não serve apenas para mudar o tamanho das letras mas, é algo muito mais importante pois, cada nível de título serve para uma determinada ocasião.</p>
+
+        <p>É legal dizer que, dentro de um título de nível 2 podem ter vários títulos de nível 3, e todos esses títulos ficam dentro do título de nível 1.</p>
+
+    </div>
+    
+    <h1>Principais Formatações</h1>
+
+    <div>
+
+        <h2>Negrito.. ou, destaque</h2>
+
+        <p>Nesta frase temos um <b>termo em negrito</b> usando a tag "b".</p>
+
+        <p>Já nesta frase, temos um <strong>termo de destaque</strong> usando a tag "strong".</p>
+
+        <p>___</p>
+
+        <h2>Itálico.. ou, ênfase</h2>
+
+        <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag "i".</p>
+
+        <p>Já nesta frase, temos um <em>termo em ênfase</em> usando a tag "em".</p>
+
+
+
+        <hr color="#000">
+
+
+
+        <h2>Texto marcado</h2>
+
+        <p>Podemos criar também um <mark>texto marcado</mark> usando a tag "mark".</p>
+
+        <p>Usando essa mesma tag neste parágrafo, temos <mark>outro texto marcado</mark> no final.</p>
+
+
+
+        <hr color="#000">
+
+
+
+        <h2>Texto grande e pequeno</h2>
+
+        <p>Estamos criando um "<big>TEXTO GRANDE</big>" usando a tag "big" e um  "<small>TEXTO PEQUENO</small>" usando a tag "small", ambos no mesmo parágrafo.</p>
+
+
+
+        <hr color="#000">
+
+
+
+        <h2>Texto deletado</h2>
+
+        <p>Podemos marcar um texto como <del>excluído</del> usando a tag "del" para indicarmos que ele deve ser lido, mas não considerado.</p>
+
+
+
+        <hr color="#000">
+
+
+
+        <h2>Texto inserido</h2>
+
+        <p>Podemos marcar um texto como <ins>inserido</ins> usando a tag "ins" para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+
+        <p>Existe também o <u>sublinhado</u> com a tag "u".</p>
+
+
+
+        <hr color="#000">
+
+
+
+        <h2>Texto sobrescrito</h2>
+
+        <p>Para inserir coisas do tipo x<sup>20</sup>+3, usamos a tag "sup" no valor que será elevado.</p>
+
+
+
+        <hr color="#000">
+
+
+
+        <h2>Texto subscrito</h2>
+
+        <p>Para inserir coisas do tipo h<sub>2</sub>O, usamos a tag "sub" no valor que será abaixado.</p>
+
+
+
+        <hr color="#000">
+
+
+
+        <h2>Códigos-fonte e pré-formatações..</h2>
+
+        <p>O comando <code>document.getElementById("teste")</code> é escrito em linguagem Javascript.</p>
+
+        <p>Para aparecer o código no navegador, basta inserir o código desejado junto à tag "code", como no exemplo abaixo:</p>
+
+        <pre>
+
+            <code>
+
+                let num = int (input (`Digite um número`))
+
+                if num % 2 == 0 {
+
+                    print (`O número {num} é PAR!!`)
+
+                } else {
+
+                    print (`O número {num} é ÍMPAR!!`)
+
+                    print (`Fim do programa!!`)
+
+                }
+
+            </code>
+
+        </pre>
+        <!-- A tag "pre" serve para pular textos sem precisar da tag "br", o que é bastante conveniênte, pois só a tag "pre" serve para pular qualquer linha dentro da tag!!
+
+            Nota-se que, usando "pre", podem surgir problemas de alinhamento de texto em alguns momentos, então é sempre bom ter cautela quando for usá-lo!!
+
+        -->
+
+
+
+        <hr color="#000">
+
+
+
+        <h2>Citações simples</h2>
+
+        <p>
+
+            <q>
+
+                Como diria o pai de um amigo meu: O computador é um burro muito rápido!!
+
+            </q>
+
+        </p>
+        <!-- A tag "q" serve para colocar aspas no texto dentro da tag.
+
+            Vale ressaltar que a tag "q" é bom para citações, pois dá um peso maior para a frase, diferente de usar as áspas simples!!
+
+        -->
+
+
+
+        <hr color="#000">
+
+
+
+        <h2>Citações completas</h2>
+
+        <p>Segundo Jeff Noble, no seu livro HTML para Leigos</p>
+
+        <blockquote>
+
+            A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descreve os blocos de texto.
+
+        </blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">
+
+        <!-- A tag "blockquote" serve para destacar uma frase acrescentando uma quebra de linha e um espaçamento da borda!! -->
+
+
+
+        <hr color="#000">
+
+
+
+        <h2>Abreviações</h2>
+
+        <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> e, estou adorando!!</p>
+        <!-- A tag "abbr" serve para adicionar um título em uma abreviação e, o título irá aparecer somente ao passar o cursor na abreviação que, geralmente, está sublinhada!! -->
+
+
+
+        <hr color="#000">
+
+
+
+        <h2>Texto invertido</h2>
+
+        <p>
+
+            <bdo dir="rtl">
+
+                ..Estou aprendendo a criar conteúdo em HTML!!
+
+            </bdo>
+
+            <br/>
+
+            Para quem não entendeu a frase acima, eu disse que.. Estou aprendendo a criar conteúdo em HTML!!
+
+        </p>
+
+        <!-- A tag "bdo" serve para mexer na ordem das palavras, sendo o parâmetro "rtl" para colocar a frase da direita para a esquerda (ou seja, em ordem invertida) e, o parâmetro "ltr" para colocar a frase da esquerda para a direita (ou seja, em ordem correta)!! -->
+
+    </div>
+
+    <!-- Vale ressaltar que "semântico" é algo com significado, ou seja, algo com destaque!! -->
+
+</body>
+
+</html>

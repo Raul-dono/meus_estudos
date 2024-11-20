@@ -1,0 +1,105 @@
+O que é rede de ponto a ponto?
+- Peer-to-peer (em português, par a par, ou simplesmente ponto a ponto) ou P2P, é uma arquitetura de redes de computadores onde cada um dos pontos ou nós da rede funciona tanto como cliente quanto como servidor, permitindo compartilhamentos de serviços e dados sem a necessidade de um servidor central ou hierárquica.
+
+
+
+O que é rede multiponto?
+- A rede multiponto é muitas vezes referida como circuito multiponto ou multidrop.
+
+  Permite que todos os dispositivos conversem entre si, pois a capacidade da conexão pode ser dividida de forma temporal e espacial entre os dispositivos da rede.
+
+
+
+O que é rede PAN (Personal Area Network)?
+- Uma rede de área pessoal (PAN) conecta dispositivos eletrônicos dentro da área imediata de um usuário.
+
+  O tamanho de uma PAN varia de alguns centímetros a alguns metros.
+
+  Um dos exemplos mais comuns do mundo real de uma PAN é a conexão entre um fone de ouvido bluetooth e um smartphone.
+
+
+
+O que é rede LAN (Local Area Network)?
+- Uma rede local (LAN) é uma rede contida em uma pequena área geográfica, geralmente dentro do mesmo edifício.
+
+  As redes WiFi domésticas e as redes de pequenas empresas são exemplos comuns de LANs.
+
+
+
+O que é rede CAN (Campus Area Network)?
+- Uma rede de área de campus (CAN) é uma rede de computadores que abrange uma área geográfica limitada.
+
+  As CANs interconectam várias redes locais (LAN) dentro de um campus educacional ou corporativo.
+
+  A maioria das CANs se conecta à internet pública.
+
+
+
+O que é rede MAN (Metropolitan Area Network)?
+- Uma rede de área metropolitana (MAN) é uma rede de computadores que conecta computadores dentro de uma área metropolitana, que pode ser uma única grande cidade, várias cidades e vilas, ou qualquer área com vários edifícios.
+
+  Uma MAN é maior que uma rede local (LAN) mas é menor que uma rede de longa distância (WAN).
+
+
+
+O que é rede WAN (Wide Area Network)?
+- Uma rede de longa distância (WAN) conectam usuários e aplicativos em locais geograficamente dispersos, ou seja, em todo o mundo.
+
+
+
+O que é topologia física de redes?
+- A topologia física de rede é o posicionamento de vários componentes de uma rede.
+
+  Os diferentes conectores representam os cabos físicos de rede e os nós representam os dispositivos físicos de rede, como switches, por exemplo.
+
+  A topologia física, vale ressaltar, descreve a verdadeira aparência ou layout da rede.
+
+
+
+Tipos de topologia física:
+
+Estrela:
+- É o tipo de configuração mais comum. A rede é organizada de forma que os nós sejam conectados a um hub central, que atua como um servidor.
+
+  O hub gerencia a transmissão de dados pela rede, ou seja, qualquer dado enviado pela rede viaja pelo hub central antes de terminar em seu destino.
+
+Barramento:
+- A topologia de barramento também conhecida como barramento linear, é o método mais simples e comum de conectar os computadores em rede.
+
+  Constituem em um único cabo, chamado tronco (e também backbone ou segmento), que conecta todos os computadores da rede em uma linha única.
+
+Anel:
+- A topologia de rede em anel consiste em estações conectadas através de um circuito fechado, em série.
+
+  O anel não interliga as estações diretamente, mas consiste de uma série de repetidores ligados por um meio físico, sendo cada estação ligada a estes repetidores.
+
+
+
+O que é topologia lógica de redes?
+- A topologia lógica refere-se à maneira como os sinais agem sobre os meios de rede, ou a maneira como os dados são transmitidos através da rede a partir de um dispositivo para o outro sem ter em conta a interligação física dos dispositivos.
+
+  Nessa estrutura topológica, os dispositivos de comunicação são modelados como nós e as conexões entre os dispositivos são modeladas como links ou linhas entre os nós.
+
+
+
+Tipos de topologia lógica:
+
+Ethernet:
+- Ethernet é a tecnologia que permite a conexão física entre dispositivos como computadores, impressoras, switches e roteadores em redes locais.
+
+  Por ser escalável e de fácil manutenção, esse padrão é amplamente usado para conectar dispositivos através de cabos para a transmissão de dados.
+
+Fast Ethernet:
+- Fast Ethernet é uma tecnologia de rede que permite a transmissão de dados em alta velocidade, sendo uma evolução da Ethernet tradicional.
+
+  Ela foi desenvolvida para atender às demandas de redes locais (LANs) que exigem maior largura de banda para suportar o aumento do tráfego de dados.
+
+Gigabit Ethernet:
+- A tecnologia Gigabit Ethernet surgiu da necessidade criada pelo aumento de largura de banda nas "pontas" das redes (ex.: servidores e estações de trabalho) e também pela redução constante dos custos entre as tecnologias compartilhadas e comutadas, juntamente com as demandas das aplicações atuais.
+
+  Vale ressaltar que o Gigabit Ethernet é mais moderno e seu padrão atinge velocidades até 10 vezes maior que o Fast Ethernet.
+
+10GbE:
+- O padrão 10 Gigabit Ethernet, também chamado de 10GbE, foi introduzido em 1999 como uma variação que alcança 10 Gb/s, sendo dez vezes mais rápida que o Gigabit Ethernet.
+
+  Na especificação mais comum, a 10GBASE-T, recomenda-se cabos de até 100 metros, embora tamanhos maiores possam ser alcançados.

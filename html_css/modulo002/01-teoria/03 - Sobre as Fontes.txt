@@ -1,0 +1,101 @@
+Anatomias geométricas:
+- Inspirada em formas geométricas, esse tipo de fonte usa círculos perfeitos, quadrados e triângulos como referência para o seu desenho.
+
+  Outros detalhes utilizados são: haste, filete, arco, esporão, vértice, terminal.
+
+
+
+Anatomias humanizadas:
+- Inspirada no corpo humano, esse tipo de fonte usa membros corporais como referência para o seu desenho.
+
+  Alguns detalhes utilizados são: braço, perna, pé, espinha, barriga, olho, orelha, cauda
+
+
+
+Glifo:
+- Um glifo tipográfico corresponde a um único caractere de uma fonte ou a uma combinação de caracteres.
+
+  Você pode optar por visualizar todo o conjunto de glifos de uma fonte, ou você pode aplicar filtros para exibir apenas um subconjunto.
+
+
+
+Fonte:
+- Uma fonte é um conjunto de caracteres tipográficos que possuem um estilo e design específicos.
+
+  Ela é utilizada para representar letras, números e símbolos em um texto.
+
+  As fontes são essenciais para a comunicação escrita, seja em documentos impressos ou em meios digitais, como websites e aplicativos.
+
+
+
+Família tipográfica:
+- Família tipográfica é o conjunto de fontes, com as mesmas características de estilo, porém com variações de espessura, popularmente conhecidas como regular, negrito, light, blck, (bold), itálico, entre outros.
+
+  Como exemplo, podemos citar as famílias Arial, Calibri, Tahoma, Gotham, entre outros.
+
+
+
+Altura-x:
+- "Altura-x" é a altura das letras minúsculas de uma família tipográfica.
+
+  É sempre bom observar a altura-x pois, sua altura é importante para solucionar problemas de legibilidade tipográfica no estágio projetual de um família tipográfica.
+
+
+
+Altura da maiúsculas:
+- A "linha de capitular", também chamada de "altura das maiúsculas", é a distância vertical entre a linha de base e a parte superior das letras maiúsculas.
+
+  Ela define o espaço reservado para letras maiúsculas e determina a altura visual do texto.
+
+
+
+Ascendente e descendente:
+- O termo "ascendente" define as letras que se estendem para acima da altura-x; o termo "descendente", por outro lado, são os traços que se prolongam para baixo da altura-x e, de maneira geral, são ligeiramente menores que as ascendentes.
+
+  Como regra geral, as maiúsculas são levemente mais baixas que as ascendentes.
+
+
+
+Corpo:
+- O corpo do tipo corresponde ao tamanho da letra.
+
+  Na tipografia mecânica, o corpo é a largura do tipo, medida na direção de alto a baixo do caracter (ou seja, do ascendente ao descendente).
+
+
+
+Fonte serifada:
+- A palavra "serifa" refere-se aos pequenos pés presentes nas partes superior e inferior de cada letra.
+
+  Esses pequenos floreios originaram-se dos pincéis dos artistas e eram adicionados às letras como elementos decorativos.
+
+  As palavras serifadas passam a sensação de formalidade, confiança, educação e experiência.
+
+
+
+Fonte "sans-serif", ou fontes sem serifa:
+- As fontes sem serifa, ou simplesmente não serifadas, são todas as fontes que não possuem os prolongamentos nas extremidades das letras como as fontes serifadas.
+
+  Essas fontes são bastante utilizadas para textos mais curtos e para a criação de peças de design gráfico.
+
+
+
+Fonte monoespaçada:
+- Uma fonte monoespaçada, também chamada de passo-fixo ou não proporcional, é uma fonte tipográfica cujas letras e caracteres ocupam o mesmo espaço horizontal.
+
+  Isto contrasta com as fontes de largura variável, onde as letras diferem em tamanho de uma para a outra.
+
+
+
+Fontes "handwriting", ou fontes manuscritas:
+- As fontes manuscritas, ou cursivas, são as fontes que se aproximam da escrita humana.
+
+  Elas passam maior sensação de humanização, tendo um papel importante em muitos projetos que carregam este conceito de aproximação do o usuário/cliente.
+
+
+
+Fontes "display":
+- A tipografia "display" também é conhecida como decorativa ou artística.
+
+  Consiste nas fontes de letras mais artísticas que não são classificadas em nenhum dos tipos anteriores.
+
+  Esse tipo de fonte possui letras mais enfeitadas, podendo até trazer símbolos e figuras no lugar do alfabeto.

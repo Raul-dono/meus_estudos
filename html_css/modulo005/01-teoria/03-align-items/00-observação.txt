@@ -1,0 +1,1 @@
+O comando "align-items" funciona apenas para o "cross-axis" (ou, eixo transversal) e, por conta disso, é importante aumentar o "height" (ou, altura) do contêiner para poder usar o "align-items" com mais precisão!!
